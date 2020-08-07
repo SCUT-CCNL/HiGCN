@@ -26,7 +26,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.train (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="HiGCN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -41,6 +41,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HiGCN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train (1)" />
         <item itemvalue="Python.train" />
       </list>
     </recent_temporary>
@@ -85,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596802396206</updated>
-      <workItem from="1596802397788" duration="365000" />
+      <workItem from="1596802397788" duration="812000" />
     </task>
     <servers />
   </component>
@@ -101,22 +121,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1596802735851" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596802747192">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596803143986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596802747192" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596802747191">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596803143986" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596803143985">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596802747191" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596802747190">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596803143985" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596803143985">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596802747190" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596802747192">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596803143985" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596803143986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596802747192" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596803143986" />
     <state x="611" y="187" key="ftp.server.browser" timestamp="1596802452615">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

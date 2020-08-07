@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import scale
 from sklearn import metrics
-import untils
+import utils
 import time
 import torch
 import random
@@ -27,7 +27,7 @@ def plot_weight(importance, title):
             noisy_list.remove(j)
     feature_weight_all = np.concatenate([feature_weight_all[positive_list], feature_weight_all[noisy_list]])
     colors = ['r'] * len(positive_list) + ['b'] * len(noisy_list)
-    untils.plot_feature_weight(feature_weight_all, colors, title)
+    utils.plot_feature_weight(feature_weight_all, colors, title)
 
 def plot_train_test_loss(loss_train, train, loss_test, test):
     x = range(1,101)
@@ -134,7 +134,7 @@ for it in range(1,11):
 
     x = scale(x)
     start = time.time()
-    A = untils.cal_A(x)
+    A = utils.cal_A(x)
 
     ### For GEDFN
     gamma_c = 50
@@ -166,7 +166,7 @@ for it in range(1,11):
             model = higcn(in_dim, num_cls)
             optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
             proportions = [train_portion] * num_cls
-            x_train, y_train, x_test, y_test, train_idx, test_idx = untils.split_data(
+            x_train, y_train, x_test, y_test, train_idx, test_idx = utils.split_data(
                 x, y, proportions=proportions, seed=random.randint(0,10))
             print('train size: {0}, test size: {1}'.format(y_train.size(0), y_test.size(0)))
             for i in range(training_epochs):
