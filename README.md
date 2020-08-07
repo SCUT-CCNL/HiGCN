@@ -26,7 +26,7 @@ HiGCN: a hierarchical graph convolution network for representation learning of g
 
 **cox/utils.py**: contains definitions for Sample Similarity Graph construction,  figure plotting, etc
 
-**simulation/crimmix**: **SimData1**. It's generated from Crimmxi.
+**simulation/crimmix**: **SimData1**. It's generated from Crimmix.
 
 **simulation/gedfn**: **SimData2**. It's generated based on GEDFN
 
