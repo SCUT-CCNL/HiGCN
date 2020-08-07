@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb0c2655-6102-411d-8bc6-8f95ffa9b46b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/HiGCN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HiGCN.iml" afterDir="false" />
+    <list default="true" id="cb0c2655-6102-411d-8bc6-8f95ffa9b46b" name="Default Changelist" comment="new version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -114,12 +113,24 @@
       <updated>1596802396206</updated>
       <workItem from="1596802397788" duration="812000" />
       <workItem from="1596803536613" duration="96000" />
-      <workItem from="1596803636988" duration="99000" />
+      <workItem from="1596803636988" duration="1311000" />
     </task>
+    <task id="LOCAL-00001" summary="new version">
+      <created>1596803960304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596803960304</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Deployment" timestamp="1596803578289">
@@ -130,6 +141,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1596802735851" />
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1596803989770">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1596803989770" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596803143986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -146,10 +161,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596803143986" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596804028698">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596804028698" />
     <state x="611" y="187" key="ftp.server.browser" timestamp="1596803570611">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="611" y="187" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1596803570611" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596804468111">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596804468111" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HiGCN$train.coverage" NAME="train Coverage Results" MODIFIED="1596802741453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cox" />

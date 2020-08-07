@@ -2,6 +2,8 @@
 
 HiGCN: a hierarchical graph convolution network for representation learning of gene expression data
 
+**CONTACT**: For questions or comments about the code please contact: kwtan0909@qq.com / cskwtan93@mail.scut.edu.cn / sbdong@scut.edu.cn
+
 ## 1. Requirements
 
 - NumPy (1.17.4) http://www.numpy.org/
@@ -26,17 +28,35 @@ HiGCN: a hierarchical graph convolution network for representation learning of g
 
 **cox/utils.py**: contains definitions for Sample Similarity Graph construction,  figure plotting, etc
 
-**simulation/crimmix**: **SimData1**. It's generated from Crimmix.
+**simulation/crimmix**: **SimData1**. It's generated from Crimmix (ten datasets in total)
 
-**simulation/gedfn**: **SimData2**. It's generated based on GEDFN
+**simulation/crimmix/omic1**: sample-feature matrix of the first dataset
+
+**simulation/crimmix/omic1_gene_A**: gene interaction graph of the first dataset
+
+**simulation/crimmix/omic1_positive**: true signals of the first dataset
+
+**simulation/gedfn**: **SimData2**. It's generated based on GEDFN (ten datasets in total)
+
+**simulation/gedfn/gedfn1_x**: sample-feature matrix of the first dataset
+
+**simulation/gedfn/gedfn1_y**: labels of the first dataset
+
+**simulation/gedfn/gedfn1_gene_A**: gene interaction graph of the first dataset
+
+**simulation/gedfn/gedfn1_position**: true signals of the first dataset
 
 ## 3. Training and Evaluation
 
-By default, you can directly run `python train.py` to get the result of HiGCN on **SimData1**. The `train_portions` in **train.py** is used to set *Training Percentage* (Default: 1%).
+### Classification
+
+By default, you can directly run `python ./train.py` to get the result of HiGCN on **SimData1**. The `train_portions` in **train.py** is used to set *Training Percentage* (Default: 1%).
 
 If you want to classify other dataset (i.e., **SimData2**). You can directly comment out the loading code of **SimData1** and add code to load your own dataset. (The code to load **SimData2** can be finded in **train.py**)
 
+### Survival analysis
 
+Run `python ./cox/train.py`. The survival analysis data we used is too large to upload. If you need them, please contact us by email.
 
 ## Acknowledgments
 
