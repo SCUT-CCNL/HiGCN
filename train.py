@@ -7,7 +7,7 @@ import time
 import torch
 import random
 from model import higcn
-from untils import count_parameters
+from utils import count_parameters
 import networkx as nx
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
@@ -107,26 +107,18 @@ for it in range(1,11):
     # ###
 
     ### crimmix simulation data
-    positive = np.asarray(pd.read_csv('../DATASETS/simulation/crimmix/omic%d_positive.txt'%it, sep='\t', header=None)).reshape(-1)
-    gene_A = np.loadtxt('../DATASETS/simulation/crimmix/omic%d_gene_A.txt'%it)
-    x = np.asarray(pd.read_csv('../DATASETS/simulation/crimmix/omic%d.txt'%it, sep='\t'))
+    positive = np.asarray(pd.read_csv('./simulation/crimmix/omic%d_positive.txt'%it, sep='\t', header=None)).reshape(-1)
+    gene_A = np.loadtxt('./simulation/crimmix/omic%d_gene_A.txt'%it)
+    x = np.asarray(pd.read_csv('./simulation/crimmix/omic%d.txt'%it, sep='\t'))
     y = np.asarray([0] * 100 + [1] * 100 + [2] * 100 + [3] * 100)
     ###
 
     # ## gednf simulation data
-    # positive = np.loadtxt('../DATASETS/simulation/gedfn/gedfn%d_position.txt' % it)
-    # gene_A = np.loadtxt('../DATASETS/simulation/gedfn/gedfn%d_gene_A.txt' % it)
+    # positive = np.loadtxt('./simulation/gedfn/gedfn%d_position.txt' % it)
+    # gene_A = np.loadtxt('./simulation/gedfn/gedfn%d_gene_A.txt' % it)
     # np.fill_diagonal(gene_A, 1)
-    # x = np.loadtxt('../DATASETS/simulation/gedfn/gedfn%d_x.txt' % it)
-    # y = np.loadtxt('../DATASETS/simulation/gedfn/gedfn%d_y.txt' % it)
-    # ##
-
-    # ## gednf_400 simulation data
-    # positive = np.loadtxt('../DATASETS/simulation/gedfn_100_5000/gedfn%d_position.txt' % it)
-    # gene_A = np.loadtxt('../DATASETS/simulation/gedfn_100_5000/gedfn%d_gene_A.txt' % it)
-    # np.fill_diagonal(gene_A, 1)
-    # x = np.loadtxt('../DATASETS/simulation/gedfn_100_5000/gedfn%d_x.txt' % it)
-    # y = np.loadtxt('../DATASETS/simulation/gedfn_100_5000/gedfn%d_y.txt' % it)
+    # x = np.loadtxt('./simulation/gedfn/gedfn%d_x.txt' % it)
+    # y = np.loadtxt('./simulation/gedfn/gedfn%d_y.txt' % it)
     # ##
 
     yy = []
