@@ -32,9 +32,11 @@ HiGCN: a hierarchical graph convolution network for representation learning of g
 
 ## 3. Training and Evaluation
 
-By default, you can directly run `python train.py` to get the result of HiGCN on **SimData1**.
+By default, you can directly run `python train.py` to get the result of HiGCN on **SimData1**. The `train_portions` in **train.py** is used to set *Training Percentage* (Default: 1%).
 
 If you want to classify other dataset (i.e., **SimData2**). You can directly comment out the loading code of **SimData1** and add code to load your own dataset. (The code to load **SimData2** can be finded in **train.py**)
+
+
 
 ## Acknowledgments
 
