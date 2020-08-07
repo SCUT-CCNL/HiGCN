@@ -26,15 +26,15 @@ HiGCN: a hierarchical graph convolution network for representation learning of g
 
 **cox/utils.py**: contains definitions for Sample Similarity Graph construction,  figure plotting, etc
 
-**simulation/crimmix**: SimData1. It's generated from Crimmxi.
+**simulation/crimmix**: **SimData1**. It's generated from Crimmxi.
 
-**simulation/gedfn**: SimData2. It's generated based on GEDFN
+**simulation/gedfn**: **SimData2**. It's generated based on GEDFN
 
 ## 3. Training and Evaluation
 
-By default, you can directly run `python train.py` to get the result of HiGCN on SimData1.
+By default, you can directly run `python train.py` to get the result of HiGCN on **SimData1**.
 
-If you want to classify other dataset (i.e., SimData2). You can directly comment out the loading code of SimData1 and add code to load your own dataset. (The code to load SimData2 can be finded in train.py)
+If you want to classify other dataset (i.e., **SimData2**). You can directly comment out the loading code of **SimData1** and add code to load your own dataset. (The code to load **SimData2** can be finded in **train.py**)
 
 ## Acknowledgments
 
