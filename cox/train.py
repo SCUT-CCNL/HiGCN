@@ -83,9 +83,9 @@ if args.cuda:
 # Load data
 adj, gene_A, features, ystatus, ytime = load_data(DATASET)
 
-## Graph permutation experiments (Reviewer2)
-adj = torch.eye(adj.shape[0],adj.shape[1])
-gene_A = torch.eye(gene_A.shape[0], gene_A.shape[1])
+# ## Graph permutation experiments (Reviewer2)
+# adj = torch.eye(adj.shape[0],adj.shape[1])
+# gene_A = torch.eye(gene_A.shape[0], gene_A.shape[1])
 
 for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True).split(features.cpu(), ystatus.cpu()):
     temp = train_index
