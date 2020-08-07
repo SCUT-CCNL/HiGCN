@@ -14,7 +14,7 @@ HiGCN: a hierarchical graph convolution network for representation learning of g
 
 ## 2. Code Base Structure
 
-**train.py**: main script for classification
+**train.py**: <u>main script</u> for classification
 
 **model.py**: contains PyTorch model definitions for HiGCN
 
@@ -24,7 +24,7 @@ HiGCN: a hierarchical graph convolution network for representation learning of g
 
 **until.py**: contains definitions for Sample Similarity Graph construction,  C-index, data loader, etc
 
-**cox/train.py**: main script for Cox.
+**cox/train.py**: <u>main script</u> for Cox.
 
 **cox/utils.py**: contains definitions for Sample Similarity Graph construction,  figure plotting, etc
 
