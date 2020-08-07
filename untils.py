@@ -1,4 +1,7 @@
 import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import pingouin as pg
 
 import torch
 import snf
@@ -9,20 +12,37 @@ else:
     dtype = {'float': torch.FloatTensor, 'long': torch.LongTensor, 'byte': torch.ByteTensor}
 
 
+def count_parameters(model):
+    return sum(p.numel() for p in model.parameters() if p.requires_grad)
+
 def plot_feature_weight(feature_weight_all, colors, title, figsize=10):
     plt.figure(figsize=(figsize, figsize))
     plt.scatter(range(len(feature_weight_all)), feature_weight_all, c=colors, s=20)
-    plt.xlabel('index')
-    plt.ylabel('weight')
-    plt.title(title)
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
+    plt.xlabel('index', fontsize=20)
+    plt.ylabel('weight', fontsize=20)
+    plt.title(title, fontsize=25)
     plt.show()
     plt.close()
 
 def cal_A(x):
-    gene_A = snf.make_affinity(x, metric='cosine', K=10)
+    ## SNF
+    gene_A = snf.make_affinity(x, metric='cosine', K=20) #N_i
     gene_A = torch.FloatTensor(gene_A)
+    ## End of SNF
+    ### replace snf with pd.corr()
+    # gene_A = pd.DataFrame(x)
+    # gene_A = gene_A.T.corr()
+    # gene_A = torch.FloatTensor(np.array(gene_A))
+    # ### End of the replace
+    # ### replace snf with pg.pcorr()
+    # gene_A = pd.DataFrame(x)
+    # gene_A = gene_A.T.pcorr()
+    # gene_A = torch.FloatTensor(np.array(gene_A))
+    # ###
     value, index = gene_A.sort(descending=True)
-    index_0 = index[:, :10]
+    index_0 = index[:, :10] #k
     gene_A_kNN = torch.zeros_like(gene_A)
     for i in range(len(gene_A)):
         temp = gene_A[i, index_0[i]]

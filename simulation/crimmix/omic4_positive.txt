@@ -1,0 +1,5 @@
+gene191	gene457	gene904	gene440
+gene469	gene335	gene47	gene25
+gene109	gene699	gene762	gene27
+gene372	gene613	gene444	gene235
+gene338	gene391	gene151	gene323

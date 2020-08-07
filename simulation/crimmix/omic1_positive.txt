@@ -1,0 +1,5 @@
+gene423	gene823	gene276	gene302
+gene201	gene272	gene170	gene419
+gene310	gene661	gene682	gene578
+gene3	gene776	gene629	gene110
+gene593	gene427	gene450	gene545

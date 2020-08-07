@@ -1,0 +1,5 @@
+gene308	gene891	gene464	gene932
+gene380	gene864	gene861	gene439
+gene346	gene194	gene616	gene601
+gene543	gene390	gene450	gene880
+gene956	gene200	gene287	gene853

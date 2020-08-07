@@ -1,0 +1,5 @@
+gene658	gene554	gene80	gene579
+gene332	gene596	gene550	gene893
+gene951	gene877	gene544	gene743
+gene841	gene214	gene27	gene548
+gene552	gene480	gene261	gene567

@@ -1,0 +1,5 @@
+gene733	gene747	gene724	gene698
+gene356	gene525	gene474	gene927
+gene515	gene533	gene840	gene852
+gene865	gene200	gene859	gene236
+gene232	gene433	gene279	gene557

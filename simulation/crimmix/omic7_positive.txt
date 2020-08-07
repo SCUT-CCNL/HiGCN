@@ -1,0 +1,5 @@
+gene932	gene141	gene46	gene638
+gene987	gene7	gene641	gene916
+gene773	gene263	gene688	gene565
+gene389	gene342	gene7	gene796
+gene220	gene699	gene894	gene974
