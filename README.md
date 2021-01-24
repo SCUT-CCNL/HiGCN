@@ -56,7 +56,9 @@ If you want to classify other dataset (i.e., **SimData2**). You can directly com
 
 ### Survival analysis
 
-Run `python ./cox/train.py`. The survival analysis data we used is too large to upload. If you need them, please contact us by email.
+Run `python ./cox/train.py`. The survival analysis data we used is too large to upload. If you need them, please contact us by email or you can download Kidney and Pancancer data on:
+https://www.cbioportal.org/
+https://xenabrowser.net/datapages/?hub=https://tcga.xenahubs.net:443
 
 ## Acknowledgments
 
